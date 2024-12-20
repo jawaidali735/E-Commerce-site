@@ -1,14 +1,14 @@
-import { getProducts } from "@/helper"; // Function to fetch products
-import { ProductType } from "../types"; // Type for products
+import { getProducts } from "@/helper"; 
+import { ProductType } from "../types"; 
 import Container from "@/components/Container";
 import Image from "next/image";
 import FormattedPrice from "@/components/FormattedPrice";
 
 type Props = {
-  params: { _id: string }; // Properly typed dynamic route params
+  params: { _id: string }; 
 };
 
-// Ensure metadata generation works correctly
+
 export async function generateMetadata({ params }: Props) {
   return {
     title: `Product - ${params._id}`,
@@ -17,13 +17,13 @@ export async function generateMetadata({ params }: Props) {
 }
 
 const Page = async ({ params }: Props) => {
-  // Fetch products
+ 
   const products = await getProducts();
 
-  // Get product based on the dynamic route parameter
+
   const product = products.find((p: ProductType) => p._id === Number(params._id));
 
-  // If the product is not found, show an error message
+ 
   if (!product) {
     return (
       <Container className="flex items-center justify-center min-h-screen">
@@ -32,7 +32,7 @@ const Page = async ({ params }: Props) => {
     );
   }
 
-  // Render the product details
+
   return (
     <Container className="flex items-center flex-col md:flex-row px-4 xl:px-0">
       <div className="w-full md:w-1/2 overflow-hidden bg-zinc-50 flex items-center justify-center p-10">
