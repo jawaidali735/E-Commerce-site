@@ -1,0 +1,154 @@
+{
+    "phones": [
+      {
+        "id": 1,
+        "name": "iPhone 14",
+        "brand": "Apple",
+        "price": 999,
+        "description": "The latest iPhone with a stunning camera and performance.",
+        "image": "https://example.com/images/iphone14.jpg",
+        "color": "Midnight",
+        "storage": "128GB"
+      },
+      {
+        "id": 2,
+        "name": "Samsung Galaxy S22",
+        "brand": "Samsung",
+        "price": 899,
+        "description": "A sleek smartphone with cutting-edge features.",
+        "image": "https://example.com/images/s22.jpg",
+        "color": "Phantom Black",
+        "storage": "128GB"
+      },
+      {
+        "id": 3,
+        "name": "OnePlus 9 Pro",
+        "brand": "OnePlus",
+        "price": 1069,
+        "description": "Flagship smartphone with a powerful camera and fast charging.",
+        "image": "https://example.com/images/oneplus9pro.jpg",
+        "color": "Morning Mist",
+        "storage": "256GB"
+      },
+      {
+        "id": 4,
+        "name": "Google Pixel 7",
+        "brand": "Google",
+        "price": 599,
+        "description": "Google's latest phone with top-notch AI features and pure Android experience.",
+        "image": "https://example.com/images/pixel7.jpg",
+        "color": "Obsidian",
+        "storage": "128GB"
+      },
+      {
+        "id": 5,
+        "name": "Xiaomi Mi 11 Ultra",
+        "brand": "Xiaomi",
+        "price": 749,
+        "description": "Premium phone with a 108MP camera and AMOLED display.",
+        "image": "https://example.com/images/mi11ultra.jpg",
+        "color": "Celestial Silver",
+        "storage": "256GB"
+      }
+    ],
+    "phone_cases": [
+      {
+        "id": 1,
+        "name": "iPhone 14 Case",
+        "material": "Silicone",
+        "price": 29,
+        "description": "Protective case for iPhone 14 with soft-touch finish.",
+        "image": "https://example.com/images/iphone_case.jpg",
+        "color": "Clear"
+      },
+      {
+        "id": 2,
+        "name": "Samsung Galaxy S22 Case",
+        "material": "Leather",
+        "price": 35,
+        "description": "Premium leather case for Galaxy S22 with card holder.",
+        "image": "https://example.com/images/s22_case.jpg",
+        "color": "Brown"
+      },
+      {
+        "id": 3,
+        "name": "OnePlus 9 Pro Case",
+        "material": "TPU",
+        "price": 19,
+        "description": "Durable and shock-absorbing case for OnePlus 9 Pro.",
+        "image": "https://example.com/images/oneplus_case.jpg",
+        "color": "Black"
+      },
+      {
+        "id": 4,
+        "name": "Pixel 7 Case",
+        "material": "Plastic",
+        "price": 15,
+        "description": "Sleek and slim-fit case for Google Pixel 7.",
+        "image": "https://example.com/images/pixel_case.jpg",
+        "color": "Blue"
+      },
+      {
+        "id": 5,
+        "name": "Mi 11 Ultra Case",
+        "material": "Carbon Fiber",
+        "price": 45,
+        "description": "High-end protective case with carbon fiber texture.",
+        "image": "https://example.com/images/mi_case.jpg",
+        "color": "Grey"
+      }
+    ],
+    "watches": [
+      {
+        "id": 1,
+        "name": "Apple Watch Series 7",
+        "brand": "Apple",
+        "price": 399,
+        "description": "Smartwatch with health features, always on display.",
+        "image": "https://example.com/images/apple_watch7.jpg",
+        "color": "Silver",
+        "band_material": "Aluminum"
+      },
+      {
+        "id": 2,
+        "name": "Samsung Galaxy Watch 4",
+        "brand": "Samsung",
+        "price": 250,
+        "description": "Smartwatch with fitness tracking features and long battery life.",
+        "image": "https://example.com/images/galaxy_watch4.jpg",
+        "color": "Black",
+        "band_material": "Silicone"
+      },
+      {
+        "id": 3,
+        "name": "Fitbit Versa 3",
+        "brand": "Fitbit",
+        "price": 229,
+        "description": "Fitness-focused smartwatch with heart rate tracking and GPS.",
+        "image": "https://example.com/images/fitbit_versa3.jpg",
+        "color": "Pink",
+        "band_material": "Silicone"
+      },
+      {
+        "id": 4,
+        "name": "Garmin Venu 2",
+        "brand": "Garmin",
+        "price": 349,
+        "description": "Smartwatch with advanced fitness features and touch screen.",
+        "image": "https://example.com/images/garmin_venu2.jpg",
+        "color": "Slate",
+        "band_material": "Leather"
+      },
+      {
+        "id": 5,
+        "name": "Huawei Watch GT 3",
+        "brand": "Huawei",
+        "price": 289,
+        "description": "Premium smartwatch with long battery life and accurate fitness tracking.",
+        "image": "https://example.com/images/huawei_gt3.jpg",
+        "color": "Gold",
+        "band_material": "Stainless Steel"
+      }
+    ]
+  }
+  
